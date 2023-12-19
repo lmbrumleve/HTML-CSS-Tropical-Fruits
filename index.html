@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tropical Fruits of Indonesia: A Visitor's Guide</title>
+      <script src="script.js"></script>
+      <link href="styles.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <!-- Write your HTML in this file! -->
+         <div id="top"></div>
+         <header>      
+            <h1>Tropical Fruits of Indonesia: A Visitor's Guide</h1>
+
+         </header>
+
+         <div>
+            <img src="./images/fruits.png" style="width:100%; margin: 0" >
+         </div>
+
+            <main>
+         <article>
+         <p>I have had the wonderful experience of moving to Indonesia and living there for 6 years. The thing I 
+            love most about Indonesia is its diversity. Diversity is one word 
+            that can describe almost any aspect of Indonesia. Barack Obama lived in Indonesia for a few years of his childhood, and 
+            he shares a similar sentiment:
+         </p>
+
+         <p id=testP class = "funParagraph" cite="https://www.bbc.com/news/world-asia-pacific-11724063">
+
+         “Because Indonesia is made up of thousands of islands, hundreds of languages and people from scores of regions and 
+         ethnic groups, my time here helped me appreciate the humanity of all people.” - Barack Obama
+
+         </p>
+            
+         <p>I couldn't agree more! Not only are the people, languages, and cultures 
+            they represent highly diverse, but the array of natural plants, wildlife, and natural phenomena exhibit a 
+            similar level of diversity. 
+            There are so many interesting things to talk about when it comes to Indonesia. The list is never-ending.
+            In this article I want to talk about the variety of tropical fruits that are local to Indonesia. What 
+            follows is a summary of my top tropical fruit recommendations to try for those who are visiting Indonesia. Each one 
+            of these is sure to provide a memorable experience!
+         </p>
+         <div class="dropdown">
+         <h2 id="mainHeading"><button onclick="myFunction()" class="dropbtn">Contents</button></h2>
+            <div id="contentDropdown" class="dropdown-content">
+              <a href="#durian-fruit">Durian</a>
+              <a href="#passion-fruit">Passion Fruit</a>
+              <a href="#dragon-fruit">Dragon Fruit</a>
+              <a href="#jackfruit">Jackfruit</a> 
+              <a href="#rambutan-fruit">Rambutan</a>
+              <a href="#snake-fruit">Snake Fruit</a>
+              <a href="#star-fruit">Star Fruit</a>
+              <a href="#papaya">Papaya</a>
+            </div>
+          </div> 
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("contentDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+         </article>
+
+         <article id="durian-fruit">
+            <h2>Durian   <button id="durianButton" style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            
+            <audio id="durian">
+               <source src="./indonesian-fruit-audio-recordings/durianTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+            <img src="./images/durian.jpg" 
+            alt = "durian fruit" style="width:100%;">
+               <p>The word <em>durian</em> is derived from the Malay word for &quot;thorns&quot;. 
+               And by looking at it, it is easy to see why it has been named the 
+               &quot;thorny fruit&quot;. In my opinion, a durian just looks like something a person should not eat.
+               Other than the intimidating thorny outer shell, it also has a very 
+               stinky smell, that can be smelled from far away. In Indonesia, there are even
+               airlines that will not allow passengers to bring durian on-board the plane
+               due to its smell. I have tasted durian before and I did not like it very much.
+               The fruit has a slimey, custardy texture to it. But people from Medan, Indonesia 
+               not only like durian, they love it. It has become almost a part of their identity, 
+               having a reputation around Indonesia for being durian lovers. Even though I did not 
+               like it when I tried it, I still would recommend that if you are ever in Indonesia,
+               make an effort to get your hands on some durian. The experience is one to remember!</p>
+               </article>
+
+         <article id="passion-fruit">
+
+            <h2>Passion Fruit (Markisa)   <button id="markisaButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="markisa">
+               <source src="./indonesian-fruit-audio-recordings/markisaTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+               <img src="./images/markisa.jpg" 
+               alt = "passion fruit" style = "width:100%;">
+               <p>One fruit that I enjoyed while in Indonesia was <em>markisa</em>, which 
+               is the Indonesian word for &quot;passion fruit&quot;. At times we would drive up into the mountains 
+               and they always had the best markisa there. You can buy it in bundles by the kilogram, 
+               tear it open with your hands, and scoop out the interior with a spoon to enjoy a delicious,
+               unique citrus flavor that is (when ripened to perfection) a little sweet.</p>
+         </article>
+
+         <article id="dragon-fruit">
+            <h2>Dragon Fruit (Buah Naga)   <button id="buahNagaButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="buah-naga">
+               <source src="./indonesian-fruit-audio-recordings/buah-nagaTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+               <img src="./images/buah-naga.jpg"
+               alt="dragon fruit" style="width: 100%">
+               <p>Dragon fruit, or <em>buah naga</em>, is originally from the Americas, but it is very commonly grown in Indonesia.
+               I associate it with Indonesia as well. It grows on a cactus plant, and the fruit inside 
+               can be either red or white. The two colors of fruit taste similar enough to one another, and 
+               the texture of the fruit is similar to the texture of kiwi fruit. However it is also a little 
+               bit crunchy because of all of the little black seeds in it. If you are going to eat red dragon 
+               fruit (my personal favorite), you will want to be sure and not get the fruit on your clothes 
+               because it will stain very easily.</p>
+         </article>
+
+         <article id="jackfruit">
+            <h2>Jackfruit (Nangka)   <button id="nangkaButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="nangka">
+               <source src="./indonesian-fruit-audio-recordings/nangkaTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+               <img src="./images/nangka.jpg" 
+               alt="jackfruit" style="width: 100%">
+               <p>Jackfruit, or <em>nangka</em>, grows plentifully on trees in Indonesia. Even driving through town, you will 
+               many times be able to see the tall jackfruit trees with the massive 35-40 lb jackfruit hanging from them.
+               For me, I was always a little bit anxious to stand too close to those trees, out of fear that a 
+               fruit would fall and hit me on the head! My fear was validated when an Indonesian colleague of mine 
+               confirmed that it is not unheard of for a person to be injured by a jackfruit falling. </p>
+
+               <p>Jackfruit is a versitale fruit. The unripened green fruit can be cooked in savory dishes, and
+               some vegetarians even like to use it as a meat substitute. My favorite form of jackfruit is when it is
+               added to a curry and served with a traditional Padang dish called 
+               <em><a href="https://en.wikipedia.org/wiki/Rendang" target="_blank">rendang</a></em> <button id="rendangButton" style='font-size:11px'><class='fas'>&#128266</i></button> as well as rice, cooked vegetables, 
+               and a spicy chili paste commonly served with Indonesian dishes called 
+               <em><a href="https://en.wikipedia.org/wiki/Sambal" target="_blank">sambal</a></em>  <button id="sambalButton" style='font-size:11px'><class='fas'>&#128266</i></button> . 
+               When cooked this way, jackfruit has a stringy texture (kind of like meat), and a more neutral flavor that will absorb the flavor
+               of the dish it is being cooked in. I've actually never tried the ripened, yellow jackfruit, but I have heard 
+               that it has a sweeter flavor than the less ripe green fruit.</p>
+               <audio id="rendang">
+                  <source src="./indonesian-fruit-audio-recordings/rendang.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+               </audio>
+               <audio id="sambal">
+                  <source src="./indonesian-fruit-audio-recordings/sambal.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+               </audio>
+         </article>
+
+         <article id="rambutan-fruit">
+            <h2>Rambutan   <button id="rambutanButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="rambutan">
+               <source src="./indonesian-fruit-audio-recordings/rambutanTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+               <img src="./images/rambutan.jpg" 
+               alt="rambutan" style="width: 100%">
+               <p><em>Rambutan</em> is known as the &quot;hairy fruit&quot; as its name is derived from the Malay word for &quot;hair&quot;. To eat rambutan, you 
+               can peel off the hairy rind by hand and then enjoy the white fruit that is inside. Rambutan fruit has a pit inside 
+               that you can either eat around or spit out when you are finished. It is very easy to open and eat. It has a flavor 
+               similar to a pear mixed with a grape flavor. The texture of the fruit is soft and easy to chew.</p>
+         </article>
+
+         <article id="snake-fruit">
+            <h2>Snake Fruit (Salak)   <button id="salakButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="salak">
+               <source src="./indonesian-fruit-audio-recordings/salakTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+            <img src="./images/salak.jpg" 
+            alt="snake fruit" style="width:100%">
+               <p>Tropical fruits are no joke! Whether they are highly potetnt like durian, giant like jackfruit, or brightly colored like
+               rambutan and dragon fruit, the one thing they all have in common is how intense they seem! Snake fruit, called 
+               <em>salak</em> in Indonesian, is no exception, and it is given the name &quot;snake fruit&quot; for reasons that you will probably 
+               be able to guess with one look at the picture above. That's right, the skin of a snake fruit looks and feels very similar 
+               to snake skin! Snake fruit also has a pit that you don't eat. It is hard to describe 
+               the way snake fruit tastes. The best word I can think of is &quot;tropical&quot;, kind of a mix of sweet and citrusy like pineapple 
+               blended with apple or banana. Some salak are more on the sweet side but some are more sour, depending on the variety.</p>
+         </article>
+
+         <article id="star-fruit">
+            <h2>Star Fruit (Belimbing)   <button id="belimbingButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="belimbing">
+               <source src="./indonesian-fruit-audio-recordings/belimbingTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+            <img src="./images/belimbing.jpg"
+            alt="Star Fruit" style="width:100%">
+               <p>Star fruit holds a special place in my heart because it was one of the first Indonesian words that my one year old learned 
+               when we first moved to Indonesia. The Indonesian word for &quot;star fruit&quot; is <em>belimbing</em>, and it is so cute to hear a little 
+               <em><a href="https://en.wikipedia.org/wiki/Bule_(term)" target="_blank">bule</a></em> <button id="buleButton"style='font-size:11px'><class='fas'>&#128266</i></button> boy saying &quot;<em>belimbing</em>, <em>belimbing</em>!&quot; Indonesians loved it so much when my kids would try to speak their language, too. Star 
+               fruit actually looks like a star when it is sliced. The fruit itself is kind of firm like the fruit of a grape but star fruit 
+               tastes more like a ripe pear than a grape, to me at least.</p>
+               <audio id="bule">
+                  <source src="./indonesian-fruit-audio-recordings/bule.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+               </audio>
+         </article>
+
+         <article id="papaya">
+            <h2>Papaya (Pepaya)   <button id="pepayaButton"style='font-size:15px'><class='fas'>&#128266</i></button></h2>
+            <audio id="pepaya">
+               <source src="./indonesian-fruit-audio-recordings/pepayaTrimmedAudio.mp3" type="audio/mp3">
+               Your browser does not support the audio element.
+            </audio>
+            <img src="./images/pepaya.jpg"
+            alt="papaya served with lime" style="width:100%">
+               <p>For me, when in Indonesia, the really exotic fruits were fun to try. However, my go-to fruit option for my family was papaya 
+               served with <em>jeruk nipis</em> <button id="jerukNipisButton"style='font-size:11px'><class='fas'>&#128266</i></button>  (lime). The way the flavors of the ripe papaya and the local limes interact with 
+               one another is nothing less than perfection. This was a favorite for my kids too! To them, it tastes like candy. </p>
+               <audio id="jeruk-nipis">
+                  <source src="./indonesian-fruit-audio-recordings/jerukNipis.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+               </audio>
+         </article>
+         <article>
+         <h2>Harvest Season</h2>
+            <p>While Indonesia grows and harvests most of these fruits all year round, there are some general guidelines to what is considered 
+               <q>in season</q>. The following table shows the best times of year to try the fruits described in this article. 
+               The table is based on the Java fruit seasons, which differ from Sumatra and other parts of the country. For example, if you were 
+               going to want to try durian in Medan (on the island of Sumatra), you would try the best durian during the months of June-September, 
+               but on Java the durain harvest season is October-February.
+            </p>
+            <table id="harvestSeason">
+               <tr>
+                 <th> </th>
+                 <th>Jan</th>
+                 <th>Feb</th>
+                 <th>Mar</th>
+                 <th>Apr</th>
+                 <th>May</th>
+                 <th>June</th>
+                 <th>July</th>
+                 <th>Aug</th>
+                 <th>Sept</th>
+                 <th>Oct</th>
+                 <th>Nov</th>
+                 <th>Dec</th>
+
+               <tr>
+                 <td class="fruitColumn">Durian</td>
+                 <td style="background-color: #3498DB"></td>
+                 <td style="background-color: #3498DB"></td>
+                 <td> </td>
+                 <td> </td>
+                 <td> </td>
+                 <td> </td>
+                 <td> </td>
+                 <td> </td>
+                 <td> </td>
+                 <td style="background-color: #3498DB"></td>
+                 <td style="background-color: #3498DB"></td>
+                 <td style="background-color: #3498DB"></td>
+               </tr>
+
+               <tr>
+                  <td class="fruitColumn">Passion Fruit</td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+
+                <tr>
+                  <td class="fruitColumn">Dragon Fruit</td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td style="background-color: #3498DB"></td>
+                </tr>
+
+                <tr>
+                  <td  class="fruitColumn">Jackfruit</td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+
+                <tr>
+                  <td class="fruitColumn">Rambutan</td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                </tr>
+
+                <tr>
+                  <td class="fruitColumn">Snake Fruit</td>
+                  <td> </td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+
+                <tr>
+                  <td class="fruitColumn">Star Fruit</td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                </tr>
+
+                <tr>
+                  <td class="fruitColumn">Papaya</td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                  <td style="background-color: #3498DB"></td>
+                </tr>
+             </table>
+         </article>
+      <br>
+   </body>
+
+   </main>
+      <footer>
+         <div class="container">
+            <div class="image">
+               <img id="photo" src="./images/LondonBrumleve.jpg">
+            </div>
+            <div class="text">
+              <p>Posted by London B.<p>
+            </div>
+            <div class="footer"><a href="#top">Back to Top</a> 
+         </div>
+      </footer>
+</html>
